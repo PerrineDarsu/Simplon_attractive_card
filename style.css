@@ -1,0 +1,60 @@
+html{width: 960px;
+    margin:0,auto;
+}
+    
+a:link{
+    text-decoration: none;
+}
+
+body {font-family:serif ;
+font:16px;
+font-weight: 400;
+height: 1.3em;}
+
+.Titre{
+        height: 30px;
+        font-weight: 900;
+        margin-left: 200px;
+}
+
+section{display: flex;align-items: flex-end;}
+
+.cardcontainer{
+    height: 400px;
+    padding: 20px;
+    border:solid 4px; 
+    border-color:  #b0215e;
+    margin-bottom: 20px;
+    background-image:url(https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+    background-size:cover;
+}
+
+.textcontainer{
+   /* height: 50%;*/
+    background-color: white;
+    padding: 40px;
+}
+
+.TEXTE{
+    height: 24px;
+    font-weight: 700;
+    margin-left: 20px; 
+    text-align: center;
+    color: black;;
+}
+
+.TEXTE:hover {background-color: rgb(45, 168, 162);}
+/* :hover {} cible n'importe quel élément <TEXTE> lorsque celui ci est survolé*/
+
+.Texte2{
+    color: #b0215e;
+    text-align: center;
+}
+  
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+
+.colorfooter{color: #b0215e;}
+
